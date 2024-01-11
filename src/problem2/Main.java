@@ -12,6 +12,15 @@ package problem2;
 public class Main {
      public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Main");
+        char[] name = {'N', 'B', 'S', 'C'};
+        
+        for (int i = 0; i < name.length; i++) {
+            System.out.print(name[i]);
+        }
+        System.out.println("");
+        for (int i = name.length-1; i >= 0; i--) {  
+            System.out.print(name[i]);  
+        }
+        System.out.println("");
     }
 }
