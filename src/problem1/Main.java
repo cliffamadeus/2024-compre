@@ -16,14 +16,14 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       Scanner num1 = new Scanner(System.in);
-       Scanner num2 = new Scanner(System.in);
+       Scanner input1 = new Scanner(System.in);
+       Scanner input2 = new Scanner(System.in);
      
        System.out.print("Enter First Number: ");
-       double firstNum = num1.nextDouble();
+       double firstNum = input1.nextDouble();
        
        System.out.print("Enter Second Number: 1");
-       double secondNum = num2.nextDouble();
+       double secondNum = input2.nextDouble();
                   
        double sum, diff,prod, quo;
        
