@@ -6,6 +6,12 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Please enter a number: ");
+		
+		while (!scanner.hasNextInt()) {
+            System.out.print("Invalid input. Please enter a numerical value: ");
+            scanner.next(); 
+        }
+		
 		double number = scanner.nextInt();
 		
 		System.out.println();
@@ -27,7 +33,6 @@ public class Main {
         }
 		
 		scanner.close();
-
 
 	}
 
